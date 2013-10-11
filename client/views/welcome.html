@@ -1,0 +1,11 @@
+<template name="welcome">
+  <h1>Welcome {{username}}!</h1>
+  <form>
+    <label for="post_name">Create a post:</label>
+    <input name="post_name" id="post_name" placeholder="Please enter a post name" autofocus="autofocus"/>
+    <button type="submit">Create</button>
+  </form>
+  <a href="" class="logout">Signout</a>
+  <a href="{{homeUrl}}" class="home">Return home</a>
+</template>
+
